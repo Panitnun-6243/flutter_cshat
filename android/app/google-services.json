@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1013364712149",
+    "project_id": "cshat-cee15",
+    "storage_bucket": "cshat-cee15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013364712149:android:3c0c06974ed322243cb85c",
+        "android_client_info": {
+          "package_name": "com.example.cs_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013364712149-nve52jet5u1m66egpu5l9itkfi4af894.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7jxp0U0N4IN0nnXc5D5WyGDJIiQH6pdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013364712149-nve52jet5u1m66egpu5l9itkfi4af894.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
