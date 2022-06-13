@@ -1,5 +1,10 @@
-import 'package:firebase_core/firebase_core.dart';
+//Packages
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:get_it/get_it.dart';
+//Services
+import '../services/navigation_service.dart';
+import '../services/media_service.dart';
 
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;
@@ -50,5 +55,12 @@ class _SplashPageState extends State<SplashPage> {
     await Firebase.initializeApp();
   }
 
-  void _registerServices() {}
+  void _registerServices() {
+    GetIt.instance.registerSingleton<NavigationService>(
+      NavigationService(),
+    );
+    GetIt.instance.registerSingleton<MediaService>(
+      MediaService(),
+    );
+  }
 }
