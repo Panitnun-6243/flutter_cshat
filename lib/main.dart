@@ -1,3 +1,4 @@
+import 'package:cs_chat/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 //Packages
@@ -23,6 +24,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'CShat',
       theme: ThemeData(
         backgroundColor: const Color.fromRGBO(36, 35, 49, 1.0),
@@ -31,7 +33,11 @@ class MainApp extends StatelessWidget {
           backgroundColor: Color.fromRGBO(30, 29, 37, 1.0),
         ),
       ),
-      // navigatorKey: NavigationService.navigatorKey,
+      initialRoute: '/login',
+      navigatorKey: NavigationService.navigatorKey,
+      routes: {
+        '/login': (BuildContext _context) => const LoginPage(),
+      },
     );
   }
 }
