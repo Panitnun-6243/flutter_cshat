@@ -1,16 +1,9 @@
-# cs_chat
+## CShat (Mobile chat application) (Not finished yet)
+Simple mobile app that have a chatting system.
 
-A new Flutter project.
+### Technology
+<p>Frontend:</p> <div> <img src="https://user-images.githubusercontent.com/25181517/186150365-da1eccce-6201-487c-8649-45e9e99435fd.png" width="30"/> <img src="https://user-images.githubusercontent.com/25181517/186150304-1568ffdf-4c62-4bdc-9cf1-8d8efcea7c5b.png" width="30"/></div>
 
-## Getting Started
+<p>Backend:</p> <div> <img src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" width="35"/>  Firebase</div>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>Database:</p> <div> <img src="https://img.icons8.com/color/452/cloud-firestore.png" width="35"/> Cloud firestore</div>
